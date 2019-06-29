@@ -50,3 +50,9 @@ git rebase branchName // same as merge
 F:\MyDevEnv\gitlearn (firstbranch)
 ? git rebase master
 Current branch firstbranch is up to date.
+
+F:\MyDevEnv\gitlearn (master)
+git push origin master
+
+F:\MyDevEnv\gitlearn (firstbranch)
+λ git push origin firstbranch
