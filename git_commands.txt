@@ -11,6 +11,8 @@ git status // check the changes made in the project.
 F:\MyDevEnv\gitlearn (master)
 > git   status
 
-git add fileName.type // include changed file to local repository
+git add fileName.type // include changed file to local repository, this will stage file.
 F:\MyDevEnv\gitlearn (master)
 > git add git_commands.txt
+
+> git add -A // stage all new and changed file to git
