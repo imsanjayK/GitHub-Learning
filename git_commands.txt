@@ -16,3 +16,10 @@ F:\MyDevEnv\gitlearn (master)
 > git add git_commands.txt
 
 > git add -A // stage all new and changed file to git
+
+git commit -m "git_commands - Sanjay" // commit changes
+F:\MyDevEnv\gitlearn (master)
+>git commit -m "git_commands - Sanjay"
+
+F:\MyDevEnv\gitlearn (master)
+>git commit -a -m "git add all - Sanjay" // commit all changes
