@@ -1,5 +1,8 @@
+# Git Init:
+Initialize a .git folder that holds information of github repository.
+
 F:\MyDevEnv\gitlearn
-git init // initialize a .git folder that holds information of github repository.
+>git init
 F:\MyDevEnv\gitlearn (master)
 
 git remote add origin "githubPath"  // link github repository to local repository.
