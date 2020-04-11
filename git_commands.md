@@ -3,16 +3,17 @@ Initialize a .git folder that holds information of github repository.
 
 F:\MyDevEnv\gitlearn
 >git init
-F:\MyDevEnv\gitlearn (master)
-
-git remote add origin "githubPath"  // link github repository to local repository.
 
 F:\MyDevEnv\gitlearn (master)
+# Git Remote:
+Links github repository to local repository.
+git remote add origin <"githubPath"> 
+
 >git remote add origin "https://github.com/imsanjayK/git-Learning.git"
 
-git status // check the changes made in the project.
-F:\MyDevEnv\gitlearn (master)
-> git   status
+# Git Status:
+Check the changes made in the project.
+>git status
 
 git add fileName.type // include changed file to local repository, this will stage file.
 F:\MyDevEnv\gitlearn (master)
