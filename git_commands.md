@@ -23,7 +23,6 @@ git status
 ## Git Add 
 Stage changed file to local repository. 
 ```bash
-F:\MyDevEnv\gitlearn (master)
 git add git_commands.txt
 ```
 To Stage all file at onces.
@@ -35,19 +34,16 @@ git add -A or .
 Used to save changes to the local repository
 Commit a particular file changes.
 ```bash
-F:\MyDevEnv\gitlearn (master)
 git commit -m "git_commands - change msg"
 ```
 Commit all changes.
 ```bash
-F:\MyDevEnv\gitlearn (master)
 git commit -a -m "git add all - change msg"
 ```
 
 ## Git Logs
 View log of commits made.
 ```bash 
-F:\MyDevEnv\gitlearn (master)
 git log
 commit 041982412ed01e2541085991d75b8621549c3844
 Author: SANJAY KUMAR <43964213+imsanjayK@users.noreply.github.com>
@@ -98,7 +94,6 @@ git push origin firstbranch
 ## Git Pull
 Get update work from Git repository to local.
 ```bash
-F:\MyDevEnv\gitlearn (master)
 git pull
 Already up-to-date.
 ```
