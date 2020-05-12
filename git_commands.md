@@ -1,11 +1,13 @@
-# Git Init:
+# Git Commands
+## Git Init:
 Initialize a .git folder that holds information of github repository.
-
+```bash
 F:\MyDevEnv\gitlearn
->git init
-
+git init
 F:\MyDevEnv\gitlearn (master)
-# Git Remote:
+```
+
+## Git Remote:
 Links github repository to local repository.
 git remote add origin <"githubPath"> 
 
