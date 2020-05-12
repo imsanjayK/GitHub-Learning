@@ -10,35 +10,47 @@ F:\MyDevEnv\gitlearn (master)
 ## Git Remote:
 Links github repository to local repository.
 git remote add origin <"githubPath"> 
-```git
+```bash
 git remote add origin https://github.com/imsanjayK/git-Learning.git
 ```
-# Git Status:
+## Git Status:
 Check the changes made in the project.
->git status
-
-git add fileName.type // include changed file to local repository, this will stage file.
+```bash
+git status
+```
+## Git Add 
+Stage changed file to local repository. 
+```bash
 F:\MyDevEnv\gitlearn (master)
-> git add git_commands.txt
-
-> git add -A // stage all new and changed file to git
-
-git commit -m "git_commands - Sanjay" // commit changes
+git add git_commands.txt
+```
+To Stage all file at onces.
+```bash
+git add -A or .
+```
+## Git Commit
+Used to save changes to the local repository
+Commit a particular file changes
+```bash
 F:\MyDevEnv\gitlearn (master)
->git commit -m "git_commands - Sanjay"
-
+git commit -m "git_commands - change msg"
+```
+```bash
+Commit all changes
 F:\MyDevEnv\gitlearn (master)
->git commit -a -m "git add all - Sanjay" // commit all changes
-
-git log  // log of changes 
+git commit -a -m "git add all - change msg"
+```
+## Git Logs
+View log of commits made.
+```git 
 F:\MyDevEnv\gitlearn (master)
 >git log
-commit 9adc42f452e7be0f1457a8198382bd002d5ecae0 (HEAD -> master)
-Author: c0demark <kumarvijay336@gmail.com>
-Date:   Sat Jun 29 22:59:28 2019 +0530
+commit 041982412ed01e2541085991d75b8621549c3844
+Author: SANJAY KUMAR <43964213+imsanjayK@users.noreply.github.com>
+Date:   Sat Apr 11 19:53:46 2020 +0530
 
-    commit all - Sanjay
-
+    new
+```
 git branch branchName	
 F:\MyDevEnv\gitlearn (master) // create branch
 >git branch firstbranch
