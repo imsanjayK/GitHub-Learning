@@ -35,16 +35,16 @@ Commit a particular file changes
 F:\MyDevEnv\gitlearn (master)
 git commit -m "git_commands - change msg"
 ```
-```bash
 Commit all changes
+```bash
 F:\MyDevEnv\gitlearn (master)
 git commit -a -m "git add all - change msg"
 ```
 ## Git Logs
 View log of commits made.
-```git 
+```python 
 F:\MyDevEnv\gitlearn (master)
->git log
+git log
 commit 041982412ed01e2541085991d75b8621549c3844
 Author: SANJAY KUMAR <43964213+imsanjayK@users.noreply.github.com>
 Date:   Sat Apr 11 19:53:46 2020 +0530
