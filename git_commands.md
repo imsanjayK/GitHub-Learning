@@ -10,8 +10,8 @@ F:\MyDevEnv\gitlearn (master)
 ## Git Remote:
 Links github repository to local repository.
 git remote add origin <"githubPath"> 
-```bash
-git remote add origin [https://github.com/imsanjayK/git-Learning.git](https://github.com/imsanjayK/git-Learning.git)
+```git
+git remote add origin https://github.com/imsanjayK/git-Learning.git
 ```
 # Git Status:
 Check the changes made in the project.
